@@ -8,6 +8,7 @@ Implementation of Accumulated Report Automation for Downhole Tools using Python,
 
 - Sperry Drilling
 - Landmark
+- Drill Bits Services
 
 Vibrava is responsible for acummulating vibration data with respect to every downhole tool, creating a full diagnosis in order to detect vibration mechanisms, decreasing operation time and costs. Then, this data will be displayed by using a Power BI dashboard, Final Excel Report and User Interface.  
 
@@ -21,7 +22,7 @@ You can install the most recent version of the pipeline with
 pip install git+:https://github.com/CamiloVillabon/Proyecto_DEEP.git
 ```
 
-## TO TEST IN LOCAL 
+# To test in local
 
 Advice: create a new conda env with version of python 3.10.4
 
@@ -34,7 +35,7 @@ run as a administrator to ./vibrava.exe
 remember to be connected to the Halliburton domain.
 ```
 
-## Next Steps:
+# Next Steps
 
     - Database connection (Insite, SAP, etc).
     - Improving data visualization
